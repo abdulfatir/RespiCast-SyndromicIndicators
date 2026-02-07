@@ -116,6 +116,8 @@ def validate_and_format_predictions(
     formatted_pred_df["origin_date"] = origin_date
     formatted_pred_df["target"] = f"{target_type} incidence"
 
+    formatted_pred_df["value"] = formatted_pred_df["value"].clip(0)
+
     return formatted_pred_df[
         ["origin_date", "target", "target_end_date", "horizon", "location", "output_type", "output_type_id", "value"]
     ]
