@@ -1,11 +1,1 @@
-{
-    "Chronos": [
-        {
-            "model": "Chronos2",
-            "changes": [
-                "model-output/Chronos-Chronos2/2026-02-11-Chronos-Chronos2.csv",
-                "model-output/Chronos-Chronos2/2026-02-18-Chronos-Chronos2.csv"
-            ]
-        }
-    ]
-}
+{}
